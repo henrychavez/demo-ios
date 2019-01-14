@@ -15,6 +15,7 @@
 		EC4ECA2421EA6853003E2F4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC4ECA2221EA6853003E2F4D /* LaunchScreen.storyboard */; };
 		EC4ECA2F21EA6853003E2F4D /* DEMOTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4ECA2E21EA6853003E2F4D /* DEMOTests.swift */; };
 		EC4ECA3A21EA6853003E2F4D /* DEMOUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4ECA3921EA6853003E2F4D /* DEMOUITests.swift */; };
+		EC4ECA4A21EA6F7F003E2F4D /* ButtonsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4ECA4921EA6F7F003E2F4D /* ButtonsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		EC4ECA3521EA6853003E2F4D /* DEMOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DEMOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC4ECA3921EA6853003E2F4D /* DEMOUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DEMOUITests.swift; sourceTree = "<group>"; };
 		EC4ECA3B21EA6853003E2F4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC4ECA4921EA6F7F003E2F4D /* ButtonsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		EC4ECA1621EA6851003E2F4D /* DEMO */ = {
 			isa = PBXGroup;
 			children = (
+				EC4ECA4921EA6F7F003E2F4D /* ButtonsViewController.swift */,
 				EC4ECA1721EA6851003E2F4D /* AppDelegate.swift */,
 				EC4ECA1921EA6851003E2F4D /* FirstViewController.swift */,
 				EC4ECA1B21EA6851003E2F4D /* SecondViewController.swift */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC4ECA4A21EA6F7F003E2F4D /* ButtonsViewController.swift in Sources */,
 				EC4ECA1C21EA6851003E2F4D /* SecondViewController.swift in Sources */,
 				EC4ECA1821EA6851003E2F4D /* AppDelegate.swift in Sources */,
 				EC4ECA1A21EA6851003E2F4D /* FirstViewController.swift in Sources */,
